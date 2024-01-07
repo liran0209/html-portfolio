@@ -1,10 +1,13 @@
+*{
+    background-color: antiquewhite;
+}
 .red-text{
     color: red;
-    background-color: black;
+    #background-color: black;
 }
 .blue-text{
     color: blue;
-    background-color: black;
+    #background-color: black;
 
 }
 .purple-text{
@@ -24,3 +27,7 @@ p[draggable=false]{
 *{
     color: blue
 }
+*{
+    font-family: 'Kaushan Script', cursive;;
+    text-align: center;
+  }
