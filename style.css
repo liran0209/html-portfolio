@@ -1,9 +1,26 @@
-.h1-heading{
+.red-text{
     color: red;
+    background-color: black;
 }
-.h2-heading{
+.blue-text{
     color: blue;
+    background-color: black;
+
 }
-.h3-heading{
+.purple-text{
     color: purple;
+    background-color: black;
+
+}
+#main1{
+    color: green;
+}
+p[draggable=true]{
+    color: blueviolet;
+}
+p[draggable=false]{
+    color:chocolate;
+}
+*{
+    color: blue
 }
