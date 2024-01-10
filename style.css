@@ -10,7 +10,7 @@
   }
   
   .project img {
-    width: 100%; /* Make the image responsive within the container */
+    width: 50%; /* Make the image responsive within the container */
     height: auto; /* Maintain aspect ratio */
   }
 *{
