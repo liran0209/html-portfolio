@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    .flag {
+      width: 900px;
+      height: 600px;
+      position: relative;
+      background-color: #0743c5;
+    }
+
+    .flag > div {
+      background-color: #ffffff;
+      height: 300px;
+      width: 100%;
+      position: absolute;
+      top: 150px;
+    }
+
+    p {
+      font-size: 5rem;
+      color: white;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      
+    }
+
+    /* Simplified style for bottom text */
+    .flag-bottom-text {
+      position: absolute;
+      bottom: 30px; /* Closer to the bottom edge */
+      width: 100%;
+      font-size: 5rem;
+      color: rgb(255, 255, 255); /* Black color for visibility */
+      text-align: center;
+    }
+
+    /* Center the star in the flag */
+    #point:after {
+      content: "\2721";
+      color: #0743c5;
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 300px;
+    }
+  </style>
+</head>
+<body>
+  <div class="flag">
+    <p>ISRAEL</p>
+    <div>
+      <div>
+        <p id="point"></p>
+      </div>
+    </div>
+    <p class="flag-bottom-text">FLAG</p>
+  </div>
+</body>
+
+<footer>
+  <a href="https://lirannoosa.github.io/html-portfolio">Go to Main</a>
+  </footer>
+  
+</html>
