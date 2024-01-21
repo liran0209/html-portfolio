@@ -1,0 +1,92 @@
+
+
+
+head {
+    display: none;
+
+}
+   
+body {
+    color: #3468C0;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+h1{
+
+    color: #3468C0;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+}
+h2{
+    color: #3468C0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3{
+    color: #3468C0;
+    font-family: "Montserrat", sans-serif;
+}
+
+div {
+    display: block;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    border-radius: 50%;
+}
+
+.top-container{
+    background-color: #FF9843;
+    position: relative;
+    padding-top: 100px;
+} 
+.middle-container {
+    background-color: #ffffff;
+    margin: 100px 0;
+}
+.bottom-container {
+    background-color: #86A7FC;
+    padding: 50px 0 20px;
+}
+.intro {
+    width: 30%;
+    margin: auto;
+}
+p {
+    line-height: 2;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+hr {
+    border: dotted #ff1212 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.btn {
+    background: #FF9843;
+    background-image: -webkit-linear-gradient(top, #FF9843, #3468C0);
+    background-image: -moz-linear-gradient(top, #FF9843, #3468C0);
+    background-image: -ms-linear-gradient(top, #FF9843, #3468C0);
+    background-image: -o-linear-gradient(top, #FF9843, #3468C0);
+    background-image: linear-gradient(to bottom, #FF9843, #3468C0);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
