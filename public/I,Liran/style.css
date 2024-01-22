@@ -1,6 +1,4 @@
 
-
-
 head {
     display: none;
 
@@ -44,6 +42,7 @@ img {
     background-color: #FF9843;
     position: relative;
     padding-top: 100px;
+    padding-bottom: 40px;
 } 
 .middle-container {
     background-color: #ffffff;
@@ -57,9 +56,11 @@ img {
     width: 30%;
     margin: auto;
 }
+
 p {
     line-height: 2;
 }
+
 p {
     display: block;
     margin-block-start: 1em;
@@ -68,11 +69,12 @@ p {
     margin-inline-end: 0px;
 }
 hr {
-    border: dotted #ff1212 6px;
+    border: dotted #ff1212 10px;
     border-bottom: none;
     width: 4%;
     margin: 100px auto;
 }
+
 
 .btn {
     background: #FF9843;
